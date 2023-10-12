@@ -8,8 +8,7 @@
 
 1. `docker pull mysql/mysql-server:8.0`
 2. `docker run --name=mysql8 -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test -e MYSQL_USER=test -e MYSQL_PASSWORD=test -e MYSQL_DATABASE=localTest2 mysql/mysql-server:8.0 --default-authentication-plugin=mysql_native_password`
-3. `docker exec -it mysql8 mysql -utest -ptest`
-4. `docker exec -i mysql8 mysql  -utest -ptest localTest2 < backup.sql`
+3. `docker exec -i mysql8 mysql  -utest -ptest localTest2 < backup.sql`
 
 ### python3
 
