@@ -28,8 +28,7 @@ CREATE TABLE `businessDistrict` (
   `businessName` varchar(255) DEFAULT NULL,
   `region` varchar(255) DEFAULT NULL,
   `businessArea` varchar(45) DEFAULT NULL,
-  `new_tablecol` varchar(45) NOT NULL,
-  PRIMARY KEY (`id`,`new_tablecol`)
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
