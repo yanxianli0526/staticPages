@@ -16,4 +16,4 @@
 
 ### 結語
 經年累月後,網站可能已經不在了,不過爬蟲的做法可以參考以下這篇文章的靜態網頁部分  
-- [爬蟲教學參考文章](https://ithelp.ithome.com.tw/articles/10282931)  
+[爬蟲教學參考文章](https://ithelp.ithome.com.tw/articles/10282931)  
